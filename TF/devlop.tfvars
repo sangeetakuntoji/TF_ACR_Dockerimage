@@ -1,2 +1,2 @@
-name     = "devlopment"
-location = "uksouth"
+name     = "samplecontainer"
+location = "eastus2"
