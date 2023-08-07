@@ -18,5 +18,5 @@ jobs:
         username: ${{ secrets.REGISTRY_USERNAME }}
         password: ${{ secrets.REGISTRY_PASSWORD }}
     - run: |
-        docker build . -t samplecontaineracr001.azurecr.io/dotnetapp:${{ github.sha }}
+        docker build . -t samplecontaineracr001.azurecr.io/dotnetapp:${{ github.sha }} 
         docker push samplecontaineracr001.azurecr.io/dotnetapp:${{ github.sha }}
