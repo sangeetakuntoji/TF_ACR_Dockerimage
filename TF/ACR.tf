@@ -15,7 +15,7 @@ terraform {
     resource_group_name  = "dev-rg"
     storage_account_name = "devxyzstorageaccount"
     container_name       = "devconatiner"
-    key                  = "devacr.tfstate"
+    key                  = "prodacr.tfstate"
   }
 }
 
