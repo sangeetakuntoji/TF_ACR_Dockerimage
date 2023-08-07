@@ -1,6 +1,6 @@
 variable "name" {
   type        = string
-  default     = "samplecontainer"
+  default     = "samplecontainer01"
   description = "Name for resources"
 }
 
