@@ -9,7 +9,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: dotnet1
+        working-directory: Dotnet1
     steps:
     - uses: actions/checkout@v2
     - uses: azure/docker-login@v1
