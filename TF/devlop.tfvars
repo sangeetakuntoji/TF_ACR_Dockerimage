@@ -1,2 +1,2 @@
-name     = "samplecontainer01"
+name     = "samplecontainer"
 location = "eastus2"
