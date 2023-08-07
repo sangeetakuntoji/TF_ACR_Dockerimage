@@ -28,12 +28,12 @@ jobs:
     
     - uses: azure/docker-login@v1
       with:
-        login-server: cloudquicklabsacr.azurecr.io
+        login-server: samplecontaineracr001.azurecr.io
         username: ${{ secrets.REGISTRY_USERNAME }}
         password: ${{ secrets.REGISTRY_PASSWORD }}
     - run: |
-        docker build . -t cloudquicklabsacr.azurecr.io/myapp:${{ github.sha }}
-        docker push cloudquicklabsacr.azurecr.io/myapp:${{ github.sha }}     
+        docker build . -t samplecontaineracr001.azurecr.io/dotnetapp:${{ github.sha }}
+        docker push samplecontaineracr001.azurecr.io/dotnetapp:${{ github.sha }}     
       
     - uses: azure/webapps-deploy@v2
       with:
